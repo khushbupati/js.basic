@@ -38,5 +38,6 @@ function loginUserMessage(username="hello"){
     //due to this written the the other statements which comes after the return not get executed
     }
     return `${username} just logged in`
+    // in default username this second return  get printed
 }
 console.log(loginUserMessage());
